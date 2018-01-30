@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41339b"
+    tools:context="com.rungene.m_insure.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#eff5f7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="m-insure" />
+
+    <Button
+        android:id="@+id/britam"
+        android:layout_width="280dp"
+        android:drawableLeft="@drawable/strawberry"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Britam" />
+
+    <Button
+        android:id="@+id/heritage"
+        android:layout_width="280dp"
+        android:drawableLeft="@drawable/pear"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/britam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Heritage" />
+
+    <Button
+        android:id="@+id/uap"
+        android:layout_width="280dp"
+        android:drawableLeft="@drawable/banana"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heritage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="UAP" />
+
+    <Button
+        android:id="@+id/icea"
+        android:layout_width="280dp"
+        android:drawableLeft="@drawable/hotpepper"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="ICEA" />
+
+    <Button
+        android:id="@+id/madison"
+        android:layout_width="280dp"
+        android:drawableLeft="@drawable/tomato"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icea"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="MADISON" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:background="#f9f3f3"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_below="@+id/madison"
+        android:layout_marginTop="30dp"
+        android:text="Copy right @2017" />
+
+
+</android.widget.RelativeLayout>
